@@ -1,0 +1,68 @@
+
+  * { /* soft reset do CSS o seletor + generico por padrao*/
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+  h1 {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: rgb(148, 73, 73);
+    font-family: 'Over the Rainbow', cursive;
+    margin-left: 1em;
+    text-shadow: 3px 3px 1px rgb(158, 128, 128)
+    /*font-family: 'Kristi', cursive;
+    font-family: 'Over the Rainbow', cursive;
+    font-family: 'Yeon Sung', cursive;*/
+  }
+  
+  p, li {
+    font-size: 25px;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding-left: 2em;
+    font-family: 'Yeon Sung', cursive;
+    color: rgb(148, 73, 73);
+  }
+
+  body {
+    background-image: url('../images/fundo-japao2.2.jpeg');
+    background-size: 100vw 250vh;
+    height: 250vh;
+  }
+ 
+  .foto-japao {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+    padding-bottom: 1em;
+  }
+  .bt-vm {
+    border-color:#271817;
+    background:linear-gradient(to bottom, #fca8a1 5%, #7e5451 100%);
+    box-shadow:inset 0px 1px 0px 0px #fff4f3;
+    color:#fff;
+    border-radius: 30%;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:15px 40px;
+    text-decoration:none;
+    display: block;
+    margin: 0 auto;
+    
+    }
+
+    .bt-vm:active {
+      position:relative;
+      top:2px;
+      
+    }
+
+    .bt-vm:hover {
+      background:linear-gradient(to bottom, #7e5451 5%, #fca8a1 100%);
+      }
